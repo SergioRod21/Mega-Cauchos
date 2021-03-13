@@ -1,0 +1,87 @@
+:root {
+    --black: #000;
+    --red: #fd3609;
+    --soft-red: #dc3545;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header img {
+    width: 120px;
+}
+
+.footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a {
+}
+
+.carousel-inner img {
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+/* .carousel, .carousel-inner > .item > img {
+  height: 720px;
+} */
+
+
+
+.contact__container {
+}
+
+.contact-us {
+    margin-bottom: -30px;
+}
+
+.contact__container .container-fluid {
+    padding: 40px;
+}
+
+.contact__container .container {
+    border:2px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:2px solid #ddd;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    align-self: center;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+
+
+.social-media__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+
+.social-media__container img {
+    height: 40px;
+}
+
+.social-media__container p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-left: 10px;
+    display: inline;
+}
+
+.phone__container, .whatsapp__container, .instagram__container, .mail__container {
+    padding: 10px 5px 5px 10px;
+    display: flex;
+    align-items: center;
+}

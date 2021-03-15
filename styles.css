@@ -8,6 +8,10 @@ html {
     scroll-behavior: smooth;
 }
 
+/* body{
+    overflow-x: hidden;
+ } */
+
 .header img {
     width: 120px;
 }
@@ -35,7 +39,8 @@ html {
 
 
 
-.contact__container {
+.contact__container .row {
+    width: 100%;
 }
 
 .contact-us {

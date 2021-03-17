@@ -1,5 +1,17 @@
-/* @media only screen and (max-width:900px){
-    .social-media__container {
-        align-items: center;
+@media screen and (max-width : 768px){
+    .brand__image {
+        width: 200px;
     }
-    } */
+
+    .form__container {
+        padding-left: 30px;
+    }
+
+    .social-media__container img {
+        height: 30px;
+    }
+
+    .social-media__container p {
+        font-size: 14px;
+    }
+}

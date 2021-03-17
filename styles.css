@@ -17,7 +17,7 @@ html {
 }
 
 .footer {
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    background: linear-gradient(90deg,#f44336,#80160e 25%,#41120c);
 }
 
 .footer a {
@@ -30,13 +30,56 @@ html {
 
 .carousel-inner img {
     max-height: 80vh;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* .carousel, .carousel-inner > .item > img {
   height: 720px;
 } */
 
+.brand__image {
+    width: 300px;
+    padding: 20px;
+}
+
+
+
+.container h2 {
+    background-image: url('images/fondo.jpg');
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 3px;
+    background-size: contain;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center !important;
+    padding-top: 5px;
+}
+
+
+.card {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    min-height: 456px;
+}
+
+
+.card-title {
+}
+
+.cauchos__container {
+}
+
+.cauchos__container img {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.dunlop__container {
+}
 
 
 .contact__container .row {
@@ -48,10 +91,10 @@ html {
 }
 
 .contact__container .container-fluid {
-    padding: 40px;
+    padding-top: 40px;
 }
 
-.contact__container .container {
+.contact__container .contact__section {
     border:2px solid #ccc;
     border-bottom:2px solid #bbb;
     border-top:2px solid #ddd;
@@ -63,19 +106,19 @@ html {
     padding-bottom: 5px;
 }
 
-
+.form__container {
+}
 
 .social-media__container {
-    display: flex;
+    padding-left: calc(100% - 75%);
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-content: space-evenly;
-    align-items: center;
-    height: 300px;
+    align-items: center; */
 }
 
 .social-media__container img {
-    height: 40px;
+    height: 35px;
 }
 
 .social-media__container p {
@@ -85,8 +128,15 @@ html {
     display: inline;
 }
 
+.social-media__container a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-media__container a:hover {
+    color: var(--soft-red);
+}
+
 .phone__container, .whatsapp__container, .instagram__container, .mail__container {
     padding: 10px 5px 5px 10px;
-    display: flex;
-    align-items: center;
 }

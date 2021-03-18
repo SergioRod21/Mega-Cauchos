@@ -140,3 +140,16 @@ html {
 .phone__container, .whatsapp__container, .instagram__container, .mail__container {
     padding: 10px 5px 5px 10px;
 }
+
+.appWhatsapp {
+position: fixed;
+right: 26px;
+bottom: 10px;
+width: 60px;
+z-index: 1000;
+}
+
+.appWhatsapp img {
+width: 100%;
+height: auto;
+}
